@@ -45,9 +45,7 @@ I wrote a function that randomly generates a Fantasy Football team filling in ea
 
 
 
+
 ![Alt text](boxplt.jpg?raw=true "Distribution of each player pool team's score")
-
-
-
 
 
