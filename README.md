@@ -112,4 +112,21 @@ Ttest_indResult(statistic=-7.249347511955615, pvalue= 5.957726836616097e-13)
 ![Alt text](bootstrap_te.jpg?raw=true "Bootstrap Mean Score of Base Pool vs Tight End Pool")
 
 
+---------------------------------------------------------------------------------------------------------------------------------
+
+## Conclusion
+
+For week 13 in the NFL the top 5 tight ends and the top 5 running backs increase the average score of your team. Top 5 wide recievers did not. And, top 5 Quarterbacks actually lowered the fantay teams score on average.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+## Further Study
+
+Test Different Methods Of Filtering.
+Expand to include more weeks of the NFL to see if these finding stay true over time
+Expand to include past seasons of the NFL to see if these findings stay true over time
+Include predictive modeling to assist in pool filtering
+
+
 
