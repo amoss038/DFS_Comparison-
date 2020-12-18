@@ -49,3 +49,24 @@ I wrote a function that randomly generates a Fantasy Football team filling in ea
 ![Alt text](Boxplt.jpg?raw=true "Distribution of each player pool team's score")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Alt text](bootstrap_te.jpg?raw=true "Bootstrap Mean Score of Base Pool vs Tight End Pool")
+
+
+
