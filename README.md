@@ -50,17 +50,60 @@ I wrote a function that randomly generates a Fantasy Football team filling in ea
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------
 
 
+## Hypothesis Testing 
 
 
+### Top 5 Quarterback Pool  against Base Pool
+
+*For Week 13
+
+Top 5 QBs against Base Pool
+
+* $H_0$: Top 5 Quarterbacks do not increase the average score for a Daily Fantasy Football Team.
+* $H_a$: Top 5 Quarterbacks do increase the average score for a Daily Fantasy Football Team.
+
+Null: Rejected
+Reason: Even though the pvalue is small enough to reject, top 5 QB's actually bring down the team's average score. 
+
+Ttest_indResult(statistic=3.357846009870451, pvalue=0.000800262874062739)
 
 
+### Top 5 WRs Pool against Base Pool
+
+* $H_0$: Top 5 Wide Recievers do not increase the average score for a Daily Fantasy Football Team.
+* $H_a$: Top 5 Quarterbacks do increase the average score for a Daily Fantasy Football Team.
+
+Null: Not Rejected
+Reason: The p-value is too high, meaning that the mean scores of the base pool and top 5 wide reciever pool are not different enough to reject.
 
 
+Ttest_indResult(statistic=0.11571656241969287, pvalue= 0.9078888079698677)
+
+![Alt text](wr_vs_base.jpg?raw=true "Distribution around the mean of base pool and top 5 WR pool")
 
 
+### Top 5 RBs Pool against Base Pool
 
+* $H_0$: Top 5 Running Backs do not increase the average score for a Daily Fantasy Football Team.
+* $H_a$: Top 5 Running Backs do increase the average score for a Daily Fantasy Football Team.
+
+Null: Rejected
+Reason: The p-value is low enough that the two pools have two different means.
+
+Ttest_indResult(statistic=-8.6441945913627, pvalue= 1.0910917663295008e-17)
+
+### Top 5 Tight End Pool against Base Pool
+
+* $H_0$: Top 5 Tight Ends do not increase the average score for a Daily Fantasy Football Team.
+* $H_a$: Top 5 Tight Ends do increase the average score for a Daily Fantasy Football Team.
+
+Null: Rejected
+Reason: The p-value is low enough that the two pools have two different means.
+
+Ttest_indResult(statistic=-7.249347511955615, pvalue= 5.957726836616097e-13)
 
 
 
