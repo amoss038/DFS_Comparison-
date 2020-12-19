@@ -65,7 +65,7 @@ Top 5 QBs against Base Pool
 * $H_0$: Top 5 Quarterbacks do not increase the average score for a Daily Fantasy Football Team.
 * $H_a$: Top 5 Quarterbacks do increase the average score for a Daily Fantasy Football Team.
 
-Null: Rejected
+Null: Not Rejected
 Reason: Even though the pvalue is small enough to reject, top 5 QB's actually bring down the team's average score. 
 
 Ttest_indResult(statistic=3.357846009870451, pvalue=0.000800262874062739)
